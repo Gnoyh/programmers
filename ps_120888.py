@@ -2,3 +2,5 @@
 
 def solution(my_string):
     return "".join(sorted(set(my_string), key = lambda x: my_string.index(x)))
+
+    
