@@ -6,4 +6,3 @@ def solution(numlist, n):
     numlist.sort(key = lambda x: (x[0], -x[1]))
     
     return [i[1] for i in numlist]
-
