@@ -1,28 +1,35 @@
 # https://school.programmers.co.kr/learn/courses/30/lessons/178870
 
 def solution(sequence, k):
-    result = [0, len(sequence)]
+    result = [-1, -1]
 
-    if k in sequence:
-        return [sequence.index(k), sequence.index(k)]
+    sum_int = 0
+    check_int = len(sequence) - 1
 
-    for i in range(len(sequence)):
-        check_sum = sequence[i]
+    for i in range(len(sequence) - 1, -1, -1):
+        result[1] = i
 
-        check_list = [i]
+        if sum_int > 0:
+            sum_int -= sequence[i + 1]
 
-        for j in range(i + 1, len(sequence)):
-            check_sum += sequence[j]
+        while check_int >= 0:
+            sum_int += sequence[check_int]
 
-            if check_sum == k:
-                check_list.append(j)
+            if sum_int == k:
+                result[0] = check_int
 
                 break
-            elif check_sum > k:
+            elif sum_int > k:
+                check_int -= 1
+
                 break
+            else:
+                check_int -= 1
 
-        if len(check_list) == 2:
-            if check_list[1] - check_list[0] < result[1] - result[0]:
-                result = check_list.copy()
+        if result[0] != -1:
+            check_index = sequence.index(sequence[result[0]])
 
-    return result
+            if sequence[result[0]] == sequence[result[1]] and check_index < result[0]:
+                return [check_index, check_index + (result[1] - result[0])]
+            else:
+                return result
