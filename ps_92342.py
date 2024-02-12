@@ -20,6 +20,7 @@ def solution(n, info):
         
     for i, v in enumerate(ryan_list):
         check_len = len(sum_list)
+        
         for j in range(check_len):
             result_list = sum_list[j][2][: ]
             
