@@ -24,13 +24,15 @@ def solution(n, wires):
                 else:
                     check_idx = 0
                     check_list = [j]
+                    start_list = [i]
 
                     while check_idx < len(check_list):
-                        check_set = set(check_list)
+                        check_len = len(check_list)
                         
                         for k in top_list[check_list[check_idx]]:
-                            if k != i and k not in check_set:
+                            if k != i and k != start_list[check_idx]:
                                 check_list.append(k)
+                                start_list.append(check_list[check_idx])
                             
                         check_idx += 1
 
