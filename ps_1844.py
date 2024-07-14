@@ -5,8 +5,6 @@ def solution(maps):
     m = len(maps) - 1
     
     moved = deque([[0, 0, 1]])
-    
-    maps[0][0] = 0
 
     def move(i, j, count):
         if j + 1 <= n and maps[i][j + 1] == 1:
