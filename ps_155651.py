@@ -2,7 +2,6 @@
 
 def solution(book_time):
     result_list = []
-
     book_time.sort()
 
     for i, v in enumerate(book_time):
