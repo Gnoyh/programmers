@@ -2,7 +2,6 @@
 
 def solution(numbers):
     result = [-1]
-    
     max_list = [numbers[-1]]
     
     for i in range(len(numbers) - 2, -1, -1):
