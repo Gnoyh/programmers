@@ -2,7 +2,6 @@
 
 def solution(nums):
     result = 0
-    
     pn_list = [0] * 2998
     
     for i in range(2, 2998):
