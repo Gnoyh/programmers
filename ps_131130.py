@@ -2,7 +2,6 @@
 
 def solution(cards):
     result_list = []
-    
     cards_dict = {}
     
     for i in range(len(cards)):
