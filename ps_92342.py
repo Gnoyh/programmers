@@ -2,11 +2,10 @@
 
 def solution(n, info):
     result_list = []
-    
-    apeach_point = sum([10 - i for i in range(11) if info[i] > 0])
-    
     sum_list = [[0, 0, [0] * 11]]
     ryan_list = []
+    
+    apeach_point = sum([10 - i for i in range(11) if info[i] > 0])
     
     for i, v in enumerate(info):
         point_list = [v + 1]
