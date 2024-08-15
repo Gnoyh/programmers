@@ -11,9 +11,9 @@ def solution(maps):
             if visited_list[i][j] == 0 and w != "X":
                 check_sum = int(maps[i][j])
                 check_idx = 0
-
-                visited_list[i][j] = 1
                 check_list = [[i, j]]
+                
+                visited_list[i][j] = 1
 
                 while check_idx < len(check_list):
                     check_i = check_list[check_idx][0]
