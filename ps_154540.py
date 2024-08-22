@@ -12,7 +12,6 @@ def solution(maps):
                 check_sum = int(maps[i][j])
                 check_idx = 0
                 check_list = [[i, j]]
-                
                 visited_list[i][j] = 1
 
                 while check_idx < len(check_list):
