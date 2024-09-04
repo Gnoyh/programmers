@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/59413
+-- https://school.programmers.co.kr/learn/courses/30/lessons/59413
 
 WITH RECURSIVE VT AS (
     SELECT 0 AS HOUR
