@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/59412
+-- https://school.programmers.co.kr/learn/courses/30/lessons/59412
 
 SELECT HOUR(DATETIME) AS 'HOUR', COUNT(DATETIME) AS 'COUNT'
 FROM ANIMAL_OUTS
