@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/144855
+-- https://school.programmers.co.kr/learn/courses/30/lessons/144855
 
 SELECT B.CATEGORY, SUM(BS.SALES) AS TOTAL_SALES
 FROM BOOK AS B
