@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/131118
+-- https://school.programmers.co.kr/learn/courses/30/lessons/131118
 
 SELECT RR.REST_ID, RI.REST_NAME, RI.FOOD_TYPE, RI.FAVORITES, RI.ADDRESS, ROUND(AVG(REVIEW_SCORE), 2) AS SCORE
 FROM REST_REVIEW AS RR
