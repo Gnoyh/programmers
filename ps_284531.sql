@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/284531
+-- https://school.programmers.co.kr/learn/courses/30/lessons/284531
 
 SELECT ROUTE, CONCAT(ROUND(SUM(D_BETWEEN_DIST), 1), 'km') AS TOTAL_DISTANCE, CONCAT(ROUND(AVG(D_BETWEEN_DIST), 2), 'km') AS AVERAGE_DISTANCE
 FROM SUBWAY_DISTANCE
