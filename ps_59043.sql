@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/59043
+-- https://school.programmers.co.kr/learn/courses/30/lessons/59043
 
 SELECT AI.ANIMAL_ID, AO.NAME
 FROM ANIMAL_INS AS AI
