@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/151137
+-- https://school.programmers.co.kr/learn/courses/30/lessons/151137
 
 SELECT CAR_TYPE, COUNT(CAR_TYPE) AS CARS
 FROM CAR_RENTAL_COMPANY_CAR
