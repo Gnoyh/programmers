@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/131114
+-- https://school.programmers.co.kr/learn/courses/30/lessons/131114
 
 SELECT WAREHOUSE_ID, WAREHOUSE_NAME, ADDRESS, IF (FREEZER_YN IS NULL, 'N', FREEZER_YN) AS FREEZER_YN
 FROM FOOD_WAREHOUSE
