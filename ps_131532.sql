@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/131532
+-- https://school.programmers.co.kr/learn/courses/30/lessons/131532
 
 SELECT YEAR(OS.SALES_DATE) AS YEAR, MONTH(OS.SALES_DATE) AS MONTH, UI.GENDER, COUNT(DISTINCT OS.USER_ID) AS USERS
 FROM ONLINE_SALE AS OS
