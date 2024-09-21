@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/157341
+-- https://school.programmers.co.kr/learn/courses/30/lessons/157341
 
 SELECT RH.CAR_ID
 FROM CAR_RENTAL_COMPANY_RENTAL_HISTORY AS RH
