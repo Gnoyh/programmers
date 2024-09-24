@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/164672
+-- https://school.programmers.co.kr/learn/courses/30/lessons/164672
 
 SELECT BOARD_ID, WRITER_ID, TITLE, PRICE, 
     CASE
