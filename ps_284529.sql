@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/284529
+-- https://school.programmers.co.kr/learn/courses/30/lessons/284529
 
 SELECT HD.DEPT_ID, HD.DEPT_NAME_EN, ROUND(AVG(HE.SAL)) AS AVG_SAL
 FROM HR_DEPARTMENT AS HD
