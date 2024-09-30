@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/164670
+-- https://school.programmers.co.kr/learn/courses/30/lessons/164670
 
 SELECT WRITER_ID, NICKNAME, CONCAT_WS(' ', CITY, STREET_ADDRESS1, STREET_ADDRESS2) AS 전체주소, CONCAT_WS('-', SUBSTR(TLNO, 1, 3), SUBSTR(TLNO, 4, 4), SUBSTR(TLNO, 8, 4)) AS 전화번호
 FROM USED_GOODS_BOARD AS B
