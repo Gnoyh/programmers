@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/132202
+-- https://school.programmers.co.kr/learn/courses/30/lessons/132202
 
 SELECT MCDP_CD AS 진료과코드 , COUNT(MCDP_CD) AS 5월예약건수
 FROM APPOINTMENT
