@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/133026
+-- https://school.programmers.co.kr/learn/courses/30/lessons/133026
 
 SELECT II.INGREDIENT_TYPE, SUM(FH.TOTAL_ORDER) AS TOTAL_ORDER
 FROM FIRST_HALF AS FH
