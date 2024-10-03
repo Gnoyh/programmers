@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/151138
+-- https://school.programmers.co.kr/learn/courses/30/lessons/151138
 
 SELECT HISTORY_ID, CAR_ID, DATE_FORMAT(START_DATE, "%Y-%m-%d") AS START_DATE, DATE_FORMAT(END_DATE, "%Y-%m-%d") AS END_DATE, IF(TIMESTAMPDIFF(DAY, START_DATE, END_DATE) >= 29, '장기 대여', '단기 대여') AS RENT_TYPE
 FROM CAR_RENTAL_COMPANY_RENTAL_HISTORY
