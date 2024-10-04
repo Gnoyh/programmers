@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/276013
+-- https://school.programmers.co.kr/learn/courses/30/lessons/276013
 
 SELECT ID, EMAIL, FIRST_NAME, LAST_NAME
 FROM DEVELOPER_INFOS
