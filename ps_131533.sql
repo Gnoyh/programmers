@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/131533
+-- https://school.programmers.co.kr/learn/courses/30/lessons/131533
 
 SELECT P.PRODUCT_CODE, (P.PRICE * SUM(OS.SALES_AMOUNT)) AS SALES
 FROM PRODUCT AS P
