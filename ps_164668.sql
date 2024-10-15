@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/164668
+-- https://school.programmers.co.kr/learn/courses/30/lessons/164668
 
 SELECT WRITER_ID, NICKNAME, SUM(PRICE) AS TOTAL_SALES
 FROM USED_GOODS_BOARD AS B
