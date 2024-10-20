@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/157343
+-- https://school.programmers.co.kr/learn/courses/30/lessons/157343
 
 SELECT *
 FROM CAR_RENTAL_COMPANY_CAR
