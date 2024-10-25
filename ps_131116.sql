@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/131116
+-- https://school.programmers.co.kr/learn/courses/30/lessons/131116
 
 WITH VT AS (
     SELECT CATEGORY, MAX(PRICE) AS MAX_PRICE
