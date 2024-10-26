@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/273710
+-- https://school.programmers.co.kr/learn/courses/30/lessons/273710
 
 SELECT II.ITEM_ID, II.ITEM_NAME
 FROM ITEM_INFO AS II
