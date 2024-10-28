@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/276036
+-- https://school.programmers.co.kr/learn/courses/30/lessons/276036
 
 WITH FE AS (
     SELECT SUM(CODE) AS CF
