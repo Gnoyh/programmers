@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/298516
+-- https://school.programmers.co.kr/learn/courses/30/lessons/298516
 
 SELECT COUNT(ID) AS FISH_COUNT
 FROM FISH_INFO

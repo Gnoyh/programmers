@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/151139
+-- https://school.programmers.co.kr/learn/courses/30/lessons/151139
 
 WITH VT AS (
     SELECT CAR_ID

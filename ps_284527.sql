@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/284527
+-- https://school.programmers.co.kr/learn/courses/30/lessons/284527
 
 WITH MS AS (
     SELECT SUM(SCORE) AS SCORE

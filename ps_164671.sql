@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/164671
+-- https://school.programmers.co.kr/learn/courses/30/lessons/164671
 
 SELECT CONCAT_WS('/', '/home/grep/src', F.BOARD_ID, CONCAT(FILE_ID, FILE_NAME, FILE_EXT)) AS FILE_PATH
 FROM USED_GOODS_FILE AS F
