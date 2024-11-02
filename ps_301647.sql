@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/301647
+-- https://school.programmers.co.kr/learn/courses/30/lessons/301647
 
 SELECT A.ID, A.GENOTYPE, B.GENOTYPE AS PARENT_GENOTYPE
 FROM ECOLI_DATA AS A
