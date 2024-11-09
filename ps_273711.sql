@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/273711
+-- https://school.programmers.co.kr/learn/courses/30/lessons/273711
 
 SELECT II.ITEM_ID, II.ITEM_NAME, II.RARITY
 FROM ITEM_INFO AS II
