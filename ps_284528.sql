@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/284528
+-- https://school.programmers.co.kr/learn/courses/30/lessons/284528
 
 WITH AG AS (
     SELECT EMP_NO, 
