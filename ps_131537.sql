@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/131537
+-- https://school.programmers.co.kr/learn/courses/30/lessons/131537
 
 (
     SELECT DATE_FORMAT(SALES_DATE, '%Y-%m-%d') AS SALES_DATE, PRODUCT_ID, USER_ID, SALES_AMOUNT
