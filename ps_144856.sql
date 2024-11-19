@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/144856
+-- https://school.programmers.co.kr/learn/courses/30/lessons/144856
 
 SELECT B.AUTHOR_ID, A.AUTHOR_NAME, B.CATEGORY, SUM(BS.SALES * B.PRICE) AS TOTAL_SALES
 FROM BOOK AS B
