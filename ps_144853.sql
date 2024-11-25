@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/144853
+-- https://school.programmers.co.kr/learn/courses/30/lessons/144853
 
 SELECT BOOK_ID, DATE_FORMAT(PUBLISHED_DATE, "%Y-%m-%d") AS PUBLISHED_DATE
 FROM BOOK
