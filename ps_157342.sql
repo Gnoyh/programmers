@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/157342
+-- https://school.programmers.co.kr/learn/courses/30/lessons/157342
 
 SELECT CAR_ID, ROUND(AVG(TIMESTAMPDIFF(DAY, START_DATE, END_DATE) + 1), 1) AS AVERAGE_DURATION
 FROM CAR_RENTAL_COMPANY_RENTAL_HISTORY
