@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/164673
+-- https://school.programmers.co.kr/learn/courses/30/lessons/164673
 
 SELECT B.TITLE, B.BOARD_ID, R.REPLY_ID, R.WRITER_ID, R.CONTENTS, DATE_FORMAT(R.CREATED_DATE, '%Y-%m-%d') AS CREATED_DATE
 FROM USED_GOODS_BOARD AS B
