@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/133025
+-- https://school.programmers.co.kr/learn/courses/30/lessons/133025
 
 SELECT FIRST_HALF.FLAVOR
 FROM FIRST_HALF, ICECREAM_INFO
