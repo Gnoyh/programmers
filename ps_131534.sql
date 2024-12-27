@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/131534
+-- https://school.programmers.co.kr/learn/courses/30/lessons/131534
 
 WITH VT AS (
     SELECT * FROM USER_INFO
